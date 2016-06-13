@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Social Login</string>
+    <string name="server_client_id">456759810721-kr4mjoqivjcqhjj7asslmu4h8mcv4248.apps.googleusercontent.com</string>
+
+    <string name="authentication_error">Authentication error</string>
+    <string name="SERVICE_VERSION_UPDATE_REQUIRED">Play store is outdated, please update your play store.</string>
+    <string name="SERVICE_DISABLED">Your place store is disabled, please enable enable it.</string>
+    <string name="SERVICE_INVALID">Your play store service is invalid, please verify you account.</string>
+    <string name="SERVICE_MISSING">Play store not found.</string>
+
+    <string name="facebook_app_id">1727615770846229</string>
+</resources>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/login_page"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/facebook_login_button"
+            android:layout_width="match_parent"
+            android:layout_height="48dip"
+            android:layout_marginBottom="24dip"
+            android:layout_marginLeft="24dip"
+            android:layout_marginRight="24dip"
+            android:layout_marginTop="18dip"
+            android:background="@drawable/facebook_button_background"
+            android:orientation="horizontal"
+            android:padding="12dip">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:adjustViewBounds="true"
+                android:maxHeight="20dip"
+                android:maxWidth="20dip"
+                android:src="@drawable/facebook_icon" />
+
+            <TextView
+                android:id="@+id/fb_button_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="16dip"
+                android:gravity="center_vertical"
+                android:text="LOGIN IN WITH FACEBOOK"
+                android:textColor="#ffffff"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/google_login_button"
+            android:layout_width="match_parent"
+            android:layout_height="48dip"
+            android:layout_marginBottom="16dip"
+            android:layout_marginLeft="24dip"
+            android:layout_marginRight="24dip"
+            android:background="@drawable/google_button_background_1"
+            android:orientation="horizontal"
+            android:padding="12dip">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:background="#11000000"
+                android:maxHeight="20dp"
+                android:maxWidth="20dp"
+                android:src="@drawable/google_plus_icon" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="16dip"
+                android:text="LOG IN WITH GOOGLE"
+                android:textColor="#ffffff"
+                android:textSize="16sp"
+                android:id="@+id/gp_button_text"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
